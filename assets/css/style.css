@@ -328,7 +328,7 @@ a:hover,a:active{
 	  -moz-transform:translateZ(40px);
 	  -ms-transform:translateZ(40px);
 	  transform:translateZ(40px);
-	  -webkit-backface-visibility: hidden;
+	  backface-visibility: hidden;
 	  }
 	.cubespinner .face2{
 		color:#fff;
@@ -336,7 +336,7 @@ a:hover,a:active{
 		-moz-transform: rotateX(90deg) translateZ(40px);
 		-ms-transform: rotateX(90deg) translateZ(40px);
 		transform: rotateX(90deg) translateZ(40px);
-		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
 	}
 	.cubespinner .face3{
 		color:#f85555;
@@ -344,7 +344,7 @@ a:hover,a:active{
 		-moz-transform:rotateX(180deg)  translateZ(40px);
 		-ms-transform:rotateX(180deg)  translateZ(40px);
 		transform:rotateX(180deg)  translateZ(40px);
-		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
 		}
 	.cubespinner .face4{
 		color:#fff;
@@ -352,7 +352,7 @@ a:hover,a:active{
 		-moz-transform:rotateX(270deg) translateZ(40px);
 		-ms-transform:rotateX(270deg) translateZ(40px);
 		transform:rotateX(270deg) translateZ(40px);
-		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
 	}
 
 
@@ -422,3 +422,4 @@ a:hover,a:active{
       -ms-transform: rotateX(360deg);
       transform: rotateX(360deg);
     }
+  }
